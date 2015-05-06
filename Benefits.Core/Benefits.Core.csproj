@@ -40,11 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BenefitPlan.cs" />
+    <Compile Include="BenefitPlanAdjustmentBase.cs" />
     <Compile Include="BenefitPlanQuote.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Dependent.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="NameStartsWithAPlanAdjustment.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="PlanParticipant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
